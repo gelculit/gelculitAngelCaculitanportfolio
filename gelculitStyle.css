@@ -663,63 +663,6 @@
 
 
   /*---------------------------------------
-      CONTACTS             
-  -----------------------------------------*/
-
-  #contact {
-    background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
-
-  #contact .section-title h2 {
-    color: #ffffff;
-  }
-
-  .google-map {
-    border-radius: 100%;
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-
-  .google-map iframe {
-    border: 0;
-    width: 300px;
-    height: 300px;
-  }
-
-  #contact .form-control {
-    border: 0;
-    border-radius: 5px;
-    box-shadow: none;
-    color: rgba(20,20,20,0.5);
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 15px;
-    padding-left: 8px;
-  }
-
-  #contact input,
-  #contact select {
-    height: 55px;
-  }
-
-  #contact select {
-    color: rgba(20,20,20,0.5);
-  }
-
-  #contact input[type='submit'] {
-    background: #ce3232;
-    border-radius: 100px;
-    color: #ffffff;
-    font-weight: 500;
-  }
-
-
-
-  /*---------------------------------------
      FOOTER              
   -----------------------------------------*/
 
@@ -751,6 +694,10 @@
   footer span,
   .footer-link li a {
     color: #d9d9d9;
+  }
+  
+  footer span:hover {
+	  color: #7dbcf7;
   }
 
   .copyright-text p,
@@ -820,7 +767,7 @@
 
   @media (min-width: 992px) {
     .modal-dialog {
-      width: 420px;
+      width: 500px;
     }
   }
 
@@ -866,12 +813,12 @@
   }
 
   .modal-dialog .modal-title {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
-  .modal-dialog .modal-title h2 {
+  /*.modal-dialog .modal-title h2 {
     color: #ffffff;
-  }
+  }*/
 
   .modal-dialog .nav-tabs {
     display: inline-block;
@@ -895,7 +842,7 @@
   }
 
   .modal-dialog .tab-content {
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   .modal-dialog form .form-control {
